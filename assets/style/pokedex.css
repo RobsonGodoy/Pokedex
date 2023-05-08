@@ -2,8 +2,11 @@
 .pokemons {
     display: grid;
     list-style: none;
-    padding: 0;
+    padding: 0.5rem;
     margin: 0;
+}
+.pokemons li {
+    margin-bottom: 20px;
 }
 @media screen and (min-width: 388px) {
     .pokemons{
@@ -23,8 +26,8 @@
 .pokemon {
     display: flex;
     flex-direction: column;
-    margin: .5rem;
-    padding: 2rem 1rem;
+    margin: 0.5rem;
+    padding: 1rem;
     border-radius: 1rem;
     background-color: #0ac795;
     color: #ffffff;
